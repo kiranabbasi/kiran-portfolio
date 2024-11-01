@@ -8,7 +8,7 @@ import Contact from './Pages/Contact.jsx';
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero id="hero"/>
       <About id="about" />
       <Portfolio id="portfolio" />
