@@ -4,8 +4,8 @@ import github from '../Assests/github.svg';
 
 const Hero = () => {
   return (
-    <div className='mt-16'>
-      <div className=' flex justify-around items-center min-h-[600px] relative z-10'>
+    <div className='mt-16 border-b  border-[#1D2130] w-[80%] m-auto'>
+      <div className=' flex justify-between items-center min-h-[600px] relative z-10'>
         <div>
           <div>
             <h1 className='manrope-font text-5xl leading-[1.1 text-[#242A41]'>HEY! <b>I'm Kiran</b>,</h1>

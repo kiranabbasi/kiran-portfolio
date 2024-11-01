@@ -14,7 +14,7 @@ const About = () => {
   const fourthLottieRef = useRef(null);
 
   return (
-    <div className="flex w-[80%] m-auto border-b border-dashed border-[#1D2130] py-12 mb-12">
+    <div className="flex w-[80%] m-auto border-b border-[#1D2130] py-12 mb-12">
 
       {/* left half */}
       <div className='relative w-1/2 min-h-[400px]'>
