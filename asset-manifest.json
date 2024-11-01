@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/kiran-portfolio/static/css/main.34c88984.css",
-    "main.js": "/kiran-portfolio/static/js/main.e83de201.js",
+    "main.css": "/kiran-portfolio/static/css/main.f9eed1ab.css",
+    "main.js": "/kiran-portfolio/static/js/main.2e457e74.js",
     "static/js/453.423cfc96.chunk.js": "/kiran-portfolio/static/js/453.423cfc96.chunk.js",
+    "static/media/node.svg": "/kiran-portfolio/static/media/node.2c930b9120cee2e28687dc2289d13c02.svg",
     "static/media/github.svg": "/kiran-portfolio/static/media/github.30a31f95334a9cf5909b8e8d213b7098.svg",
     "index.html": "/kiran-portfolio/index.html",
+    "static/media/codemerge.svg": "/kiran-portfolio/static/media/codemerge.607ec98b95c188512f44ce959f61f5c4.svg",
     "static/media/Linkedin.svg": "/kiran-portfolio/static/media/Linkedin.a7ef5be2c5e8916ba399d1ee2c616a17.svg",
-    "main.34c88984.css.map": "/kiran-portfolio/static/css/main.34c88984.css.map",
-    "main.e83de201.js.map": "/kiran-portfolio/static/js/main.e83de201.js.map",
+    "static/media/Pattern.svg": "/kiran-portfolio/static/media/Pattern.5f2153f77c319f5ac8658ddc0f193307.svg",
+    "static/media/Ellipse-2180.svg": "/kiran-portfolio/static/media/Ellipse-2180.129f81b6ea12a209077a6afde7786bd8.svg",
+    "static/media/Ellipse-2181.svg": "/kiran-portfolio/static/media/Ellipse-2181.cb2d2ff04d35488469768d88572662e7.svg",
+    "static/media/Ellipse-2179.svg": "/kiran-portfolio/static/media/Ellipse-2179.0515fe8be08b4ddb69a3e63ee091f127.svg",
+    "main.f9eed1ab.css.map": "/kiran-portfolio/static/css/main.f9eed1ab.css.map",
+    "main.2e457e74.js.map": "/kiran-portfolio/static/js/main.2e457e74.js.map",
     "453.423cfc96.chunk.js.map": "/kiran-portfolio/static/js/453.423cfc96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34c88984.css",
-    "static/js/main.e83de201.js"
+    "static/css/main.f9eed1ab.css",
+    "static/js/main.2e457e74.js"
   ]
 }
