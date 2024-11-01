@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kiran-portfolio/static/css/main.34c88984.css",
+    "main.js": "/kiran-portfolio/static/js/main.e83de201.js",
+    "static/js/453.423cfc96.chunk.js": "/kiran-portfolio/static/js/453.423cfc96.chunk.js",
+    "static/media/github.svg": "/kiran-portfolio/static/media/github.30a31f95334a9cf5909b8e8d213b7098.svg",
+    "index.html": "/kiran-portfolio/index.html",
+    "static/media/Linkedin.svg": "/kiran-portfolio/static/media/Linkedin.a7ef5be2c5e8916ba399d1ee2c616a17.svg",
+    "main.34c88984.css.map": "/kiran-portfolio/static/css/main.34c88984.css.map",
+    "main.e83de201.js.map": "/kiran-portfolio/static/js/main.e83de201.js.map",
+    "453.423cfc96.chunk.js.map": "/kiran-portfolio/static/js/453.423cfc96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c88984.css",
+    "static/js/main.e83de201.js"
+  ]
+}
