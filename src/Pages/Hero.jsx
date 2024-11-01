@@ -23,7 +23,7 @@ const Hero = () => {
             src="https://lottie.host/de2bd7bc-232d-495d-b887-c6f87b093e41/ThZseu0EOR.json"
             background="transparent"
             speed="1"
-            style={{ width: '400px', height: '400px' }}
+            style={{ width: '500px', height: '500px' }}
             loop
             autoplay
           ></dotlottie-player>
