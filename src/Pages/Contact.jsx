@@ -38,7 +38,7 @@ const Contact = () => {
   
 
   return (
-    <div id='contact' className='max-w-md mx-auto my-20 p-5 border rounded-lg shadow-md bg-white'>
+    <div id='contact' className='md:w-[60%] w-[95%] mx-auto my-20 p-5 border rounded-lg shadow-2xl bg-white'>
       <h2 className='text-2xl font-semibold text-center mb-4'>Contact Me</h2>
       {successMessage && <p className='text-green-600'>{successMessage}</p>}
       {errorMessage && <p className='text-red-600'>{errorMessage}</p>}

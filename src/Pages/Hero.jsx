@@ -7,14 +7,14 @@ import line3 from '../Assests/line3.svg';
 
 const Hero = () => {
   return (
-    <div className='mt-20 w-full relative sm:h-[88vh] h-[100vh]' id='hero'>
-      <div className='absolute w-full h-full'>
+    <div className='mt-20 w-full relative sm:h-[88vh] h-[100vh] overflow-hidden' id='hero'>
+      <div className='absolute w-full h-full overflow-hidden'>
         <img src={line1} alt="" className='absolute bottom-2 object-fit' />
         <img src={line2} alt="" className='absolute bottom-2 object-fit' />
         <img src={line3} alt="" className='absolute bottom-2 object-fit' />
 
         <div
-          className='absolute w-[450px] h-[300px] inset-0 m-auto'
+          className='absolute w-[450px] h-[300px] inset-0 m-auto overflow-hidden'
           style={{
             background: 'radial-gradient(2762.36% 537.65% at -49.5% -250%, #9BFFA5 29.24%, #AED3FF 47.38%, #C9D4EF 54.97%, #D798E1 65.75%, #CACFFA 81.77%)',
             filter: 'blur(120px)',
