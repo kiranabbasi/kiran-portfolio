@@ -9,9 +9,9 @@ import ellipse4 from '../Assests/Pattern.svg';
 const About = () => {
 
   return (
-    <div className="md:flex py-12 mb-12 justify-around items-center" id='about'>
+    <div className="flex lg:flex-row flex-col-reverse py-12 my-12 justify-around items-center" id='about'>
       {/* left half */}
-      <div className='relative w-[500px] h-[500px] min-h-[400px] flex items-center justify-center rounded-full p-10 '>
+      <div className='relative hidden lg:mt-0 mt-20 lg:w-[450px] w-[430px]  lg:h-[450px] h-[430px] sm:flex items-center justify-center rounded-full p-10 '>
         {/* center animation  */}
         <div className=''>
           <dotlottie-player
@@ -67,7 +67,7 @@ const About = () => {
 
         {/* Fourth Animation */}
         <div
-          className='absolute top-48 -left-6'
+          className='absolute top-48 z-20 -left-6'
         >
           <dotlottie-player
             src="https://lottie.host/0e3331ab-1e57-490b-9ce1-9a7a125fb3b2/AIkv5OOKQm.json"
@@ -81,7 +81,7 @@ const About = () => {
 
         {/* fifth animation  */}
         <div
-          className='absolute bottom-10 left-0'
+          className='absolute bottom-10 left-0 z-10'
         >
           <dotlottie-player
             src="https://lottie.host/c5cccd3c-cd3f-46ab-acf9-b85765290417/z30dwPgVoJ.json" background="transparent"
@@ -146,9 +146,9 @@ const About = () => {
 
       {/* right half   */}
       <div className='flex flex-col gap-10'>
-        <h2 className='text-4xl font-semibold text-[#242A41]'>I specialize in </h2>
+        <h2 className='sm:text-4xl text-3xl text-center font-semibold text-[#242A41]'>I specialize in </h2>
 
-        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative w-[500px] h-36 -rotate-2 hover:rotate-2 duration-1000'>
+        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 -rotate-2 hover:rotate-2 duration-1000'>
           <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
           <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
@@ -159,7 +159,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative w-[500px] h-36 hover:-rotate-2 rotate-2 duration-1000'>
+        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 hover:-rotate-2 rotate-2 duration-1000'>
           <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
           <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
@@ -170,7 +170,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative w-[500px] h-36 -rotate-2 hover:rotate-2 duration-1000'>
+        <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 -rotate-2 hover:rotate-2 duration-1000'>
           <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
           <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
