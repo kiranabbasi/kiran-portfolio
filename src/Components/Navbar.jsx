@@ -8,7 +8,7 @@ const Navbar = () => {
                 <ul className="manrope-font flex gap-10 text-[#1D2130] text-[17px] font-normal leading-[1.5]">
                     <li className='py-1 hover:text-black'><a href="#hero">Home</a></li>
                     <li className='py-1 hover:text-black'><a href="#about">About</a></li>
-                    <li className='py-1 hover:text-black'><a href="#projects">Projects</a></li>
+                    <li className='py-1 hover:text-black'><a href="#portfolio">Projects</a></li>
                     <li className='py-1 hover:text-black'><a href="#contact">Contact</a></li>  
                     <button className='bg-[#242A41] text-white px-3 py-1 rounded hover:bg-opacity-95'><a href="#services">Services</a></button>                
                 </ul>                

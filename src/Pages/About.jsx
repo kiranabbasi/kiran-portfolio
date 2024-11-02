@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import nodeicon from '../Assests/node.svg';
 import mergeicon from '../Assests/codemerge.svg'
 import ellipse1 from '../Assests/Ellipse-2179.svg';
@@ -7,17 +7,9 @@ import ellipse3 from '../Assests/Ellipse-2181.svg';
 import ellipse4 from '../Assests/Pattern.svg';
 
 const About = () => {
-  // References to control each player
-  const firstLottieRef = useRef(null);
-  const secondLottieRef = useRef(null);
-  const thirdLottieRef = useRef(null);
-  const fourthLottieRef = useRef(null);
-  const fifthLottieRef = useRef(null);
-  const sixthLottieRef = useRef(null);
 
   return (
-    <div className="md:flex w-[80%] m-auto border-b border-[#1D2130] py-12 mb-12 justify-around items-center">
-
+    <div className="md:flex py-12 mb-12 justify-around items-center" id='about'>
       {/* left half */}
       <div className='relative w-[500px] h-[500px] min-h-[400px] flex items-center justify-center rounded-full p-10 '>
         {/* center animation  */}
@@ -34,17 +26,13 @@ const About = () => {
         {/* First Animation */}
         <div
           className='absolute -top-16'
-          onMouseEnter={() => {
-            secondLottieRef.current.seek(0);
-            secondLottieRef.current.play();
-          }}
         >
           <dotlottie-player
-            ref={secondLottieRef}
             src="https://lottie.host/10f8a6ff-4750-4f3f-bf4b-1fcbf3c4436c/eEcREHIiMC.json"
             background="transparent"
             speed="1"
             autoplay
+            loop
             style={{ width: "130px", height: "130px" }}
           ></dotlottie-player>
         </div>
@@ -52,51 +40,41 @@ const About = () => {
         {/* Second Animation */}
         <div
           className='absolute top-0 left-0 hover:scale-75 duration-1000'
-          onMouseEnter={() => thirdLottieRef.current.play()}
-          onMouseLeave={() => thirdLottieRef.current.stop()}
         >
           <dotlottie-player
-            ref={thirdLottieRef}
             src="https://lottie.host/4df0e24c-1903-48ae-9bde-200ae40aef20/YSojaV1fQT.json"
             background="transparent"
             speed="1"
             style={{ width: "150px", height: "150px" }}
             autoplay
+            loop
           ></dotlottie-player>
         </div>
 
         {/* Third Animation */}
         <div
           className='absolute top-10 right-10'
-          onMouseEnter={() => {
-            fourthLottieRef.current.seek(0);
-            fourthLottieRef.current.play();
-          }}
         >
           <dotlottie-player
-            ref={fourthLottieRef}
             src="https://lottie.host/c415153b-1e61-497e-ba59-8cb6b9793c2b/YqgZagBBRR.json"
             background="transparent"
             speed="1"
             style={{ width: "80px", height: "80px" }}
             autoplay
+            loop
           ></dotlottie-player>
         </div>
 
         {/* Fourth Animation */}
         <div
           className='absolute top-48 -left-6'
-          onMouseEnter={() => {
-            firstLottieRef.current.seek(0);
-            firstLottieRef.current.play();
-          }}
         >
           <dotlottie-player
-            ref={firstLottieRef}
             src="https://lottie.host/0e3331ab-1e57-490b-9ce1-9a7a125fb3b2/AIkv5OOKQm.json"
             background="transparent"
             speed="1"
             autoplay
+            loop
             style={{ width: "70px", height: "70px" }}
           ></dotlottie-player>
         </div>
@@ -104,43 +82,66 @@ const About = () => {
         {/* fifth animation  */}
         <div
           className='absolute bottom-10 left-0'
-          onMouseEnter={() => {
-            fifthLottieRef.current.seek(0);
-            fifthLottieRef.current.play();
-          }}
         >
           <dotlottie-player
-            ref={fifthLottieRef}
             src="https://lottie.host/c5cccd3c-cd3f-46ab-acf9-b85765290417/z30dwPgVoJ.json" background="transparent"
             speed="1"
             style={{ width: "140px", height: "140px" }}
-            autoplay>
+            autoplay
+            loop>
           </dotlottie-player>
         </div>
 
         {/* sixth animation  */}
         <div
-        className='absolute -right-4 bottom-14'
-        onMouseEnter={() => {
-          sixthLottieRef.current.seek(0);
-          sixthLottieRef.current.play();
-        }}>
-          <dotlottie-player 
-          ref={sixthLottieRef}
-          src="https://lottie.host/01d12e40-bb57-40dc-805d-0a6ad968915e/CfSwTGhCiP.json" 
-          background="transparent" speed="1" 
-          style={{width: "120px", height: "120px"}} 
-          autoplay
+          className='absolute -right-4 bottom-14'
+        >
+          <dotlottie-player
+            src="https://lottie.host/01d12e40-bb57-40dc-805d-0a6ad968915e/CfSwTGhCiP.json"
+            background="transparent" speed="1"
+            style={{ width: "120px", height: "120px" }}
+            autoplay
+            loop
           >
           </dotlottie-player>
         </div>
 
-        <div className='w-20 hover:scale-75 duration-1000 absolute top-48 -right-7'>
+        {/* Custom keyframes */}
+        <style>
+          {`
+          @keyframes pulse-scale {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+          }
+          @keyframes back-and-forth {
+            0% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+            100% { transform: rotate(0deg); }
+          }
+        `}
+        </style>
+        {/* Scaling (Pulsing) Icon */}
+        <div
+          className="w-20 absolute top-48 -right-7"
+          style={{
+            animation: 'pulse-scale 4s ease-in-out infinite',
+          }}
+        >
           <img src={nodeicon} alt="nodeicon" />
         </div>
-        <div className='w-10 absolute -bottom-7 rotate-6  hover:-rotate-180 duration-1000'>
+
+        {/* Back-and-Forth Rotating Icon */}
+        <div
+          className="w-10 absolute -bottom-7"
+          style={{
+            animation: 'back-and-forth 6s ease-in-out infinite',
+          }}
+        ></div>
+        <div className='w-10 animate-rotate-slow absolute -bottom-7'>
           <img src={mergeicon} alt="merge" />
         </div>
+
+
       </div>
 
       {/* right half   */}

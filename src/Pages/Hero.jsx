@@ -1,14 +1,31 @@
 import React from 'react'
 import linkedin from '../Assests/Linkedin.svg';
 import github from '../Assests/github.svg';
+import line1 from '../Assests/line1.svg';
+import line2 from '../Assests/line2.svg';
+import line3 from '../Assests/line3.svg';
 
 const Hero = () => {
   return (
-    <div className='mt-16 border-b  border-[#1D2130] w-[80%] m-auto'>
-      <div className=' flex justify-between items-center min-h-[600px] relative z-10'>
+    <div className='mt-20 w-full  m-auto relative  min-h-[88vh]' id='hero'>
+      <div className='absolute w-full h-full'>
+        <img src={line1} alt="" className='absolute bottom-2 object-fit' />
+        <img src={line2} alt="" className='absolute bottom-2 object-fit' />
+        <img src={line3} alt="" className='absolute bottom-2 object-fit' />
+
+        <div
+          className='absolute w-[450px] h-[300px] inset-0 m-auto'
+          style={{
+            background: 'radial-gradient(2762.36% 537.65% at -49.5% -250%, #9BFFA5 29.24%, #AED3FF 47.38%, #C9D4EF 54.97%, #D798E1 65.75%, #CACFFA 81.77%)',
+            filter: 'blur(120px)',
+          }}
+        ></div>
+      </div>
+
+      <div className=' flex justify-around items-center relative z-10'>
         <div>
           <div>
-            <h1 className='manrope-font text-5xl leading-[1.1 text-[#242A41]'>HEY! <b>I'm Kiran</b>,</h1>
+            <h1 className='manrope-font text-5xl leading-[1.1 text-[#242A41] mb-1'>Hey! <b> I'm Kiran</b>,</h1>
             <h1 className='manrope-font text-5xl leading-[1.1 text-[#242A41]'><b>MERN STACK </b>developer</h1>
             <p className='text-[#43495B] font-roboto text-base font-normal leading-[1.5] mt-3'>Crafting dynamic web applications with pixel-perfect interfaces and <br /> seamless user experiences.</p>
           </div>
