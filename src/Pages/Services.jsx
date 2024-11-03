@@ -7,7 +7,7 @@ const Services = () => {
       <h2 className='text-[#242A41] text-5xl font-semibold text-center mb-10'>Services</h2>
       <div className='lg:flex justify-around sm:mx-16 mx-5'>
         {/* Card 1: Simple One-Page Website */}
-        <div className='bg-white rounded-lg shadow-lg p-5 lg:w-[25%] md:w[50%] w-[97%] mx-auto'>
+        <div className='bg-white rounded-lg shadow-lg p-5 lg:w-[25%] md:w[50%] w-[97%] my-8 mx-auto'>
           <h3 className='text-xl font-semibold'>Simple One-Page Website</h3>
           <p className='text-gray-700'>Price: PKR 10,000</p>
           <p className='mt-3'>Ideal for personal portfolios or small businesses looking for a web presence.</p>

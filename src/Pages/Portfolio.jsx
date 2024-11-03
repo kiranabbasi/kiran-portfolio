@@ -102,7 +102,7 @@ const Portfolio = () => {
 
 
         {/* third project  */}
-        <div className='relative bg-[#DEFCFF] lg:h-[60vh] lg:py-10 py-3 w-[98%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
+        <div className='relative bg-[#EDF0F9] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[98%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
           <img src={design1} alt="" className='absolute top-0 left-0  z-20 rounded-tl-xl' />
           <img src={design2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={design3} alt="" className='absolute bottom-0 left-24 z-20' />
