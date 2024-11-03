@@ -145,8 +145,8 @@ const About = () => {
       </div>
 
       {/* right half   */}
-      <div className='flex flex-col gap-10'>
-        <h2 className='sm:text-4xl text-3xl text-center font-semibold text-[#242A41]'>I specialize in </h2>
+      <div className='flex flex-col gap-10 h-[85vh]'>
+        <h2 className='sm:text-4xl text-3xl text-center font-semibold text-[#242A41] '>I specialize in </h2>
 
         <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 -rotate-2 hover:rotate-2 duration-1000'>
           <img src={ellipse1} alt="" className='absolute top-0 rounded-tl-xl left-0 z-20' />

@@ -4,7 +4,7 @@ import sidedesign from '../Assests/sidedesign.svg';
 const Services = () => {
   return (
     <div id='services' className='my-7 py-16 bg-[#F6F7FC]'>
-      <h2 className='text-[#242A41] text-5xl font-semibold text-center mb-10'>Services</h2>
+      <h2 className='text-[#242A41] md:text-5xl text-4xl font-semibold text-center mb-10'>Services</h2>
       <div className='lg:flex justify-around sm:mx-16 mx-5'>
         {/* Card 1: Simple One-Page Website */}
         <div className='bg-white rounded-lg shadow-lg p-5 lg:w-[25%] md:w[50%] w-[97%] my-8 mx-auto'>

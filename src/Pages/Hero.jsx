@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import linkedin from '../Assests/Linkedin.svg';
 import github from '../Assests/github.svg';
 import line1 from '../Assests/line1.svg';
@@ -6,8 +6,28 @@ import line2 from '../Assests/line2.svg';
 import line3 from '../Assests/line3.svg';
 
 const Hero = () => {
+  const [animationSize, setAnimationSize] = useState({ width: '500px', height: '300px' });
+
+  // Set the animation size based on the window width
+  const updateAnimationSize = () => {
+    const width = window.innerWidth;
+    if (width <= 640) {
+      setAnimationSize({ width: '340px', height: '200px' });
+    } else if (width <= 768) {
+      setAnimationSize({ width: '400px', height: '300px' });
+    } else {
+      setAnimationSize({ width: '500px', height: '300px' });
+    }
+  };
+
+  useEffect(() => {
+    updateAnimationSize(); // Set initial size
+    window.addEventListener('resize', updateAnimationSize); // Update on resize
+    return () => window.removeEventListener('resize', updateAnimationSize); // Cleanup
+  }, []);
+
   return (
-    <div className='mt-20 w-full relative sm:h-[88vh] h-[100vh] overflow-hidden' id='hero'>
+    <div className='mt-20 w-full relative h-[88vh] overflow-hidden' id='hero'>
       <div className='absolute w-full h-full overflow-hidden'>
         <img src={line1} alt="" className='absolute bottom-2 object-fit' />
         <img src={line2} alt="" className='absolute bottom-2 object-fit' />
@@ -37,18 +57,18 @@ const Hero = () => {
         </div>
         <div className='inline-block overflow-hidden'>
           <dotlottie-player
+            className="object-center"
             src="https://lottie.host/de2bd7bc-232d-495d-b887-c6f87b093e41/ThZseu0EOR.json"
             background="transparent"
             speed="1"
-            style={{ width: '500px', height: '300px' }}
+            style={{ width: animationSize.width, height: animationSize.height }}
             loop
             autoplay
           ></dotlottie-player>
         </div>
-
       </div>
     </div>
   )
 }
 
-export default Hero
+export default Hero;

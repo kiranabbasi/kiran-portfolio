@@ -9,7 +9,7 @@ import arrow from '../Assests/arrow.svg';
 const Portfolio = () => {
   return (
     <div className='my-16 overflow-x-hidden' id='portfolio'>
-      <h2 className='text-[#242A41] text-5xl font-semibold text-center mb-10'>My Portfolio</h2>
+      <h2 className='text-[#242A41] md:text-5xl text-4xl font-semibold text-center mb-10'>My Portfolio</h2>
 
       <div className='flex flex-col gap-10'>
 
