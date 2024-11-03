@@ -12,7 +12,7 @@ const Services = () => {
           <p className='text-gray-700'>Price: PKR 10,000</p>
           <p className='mt-3'>Ideal for personal portfolios or small businesses looking for a web presence.</p>
           <ul className='list-disc pl-5 mt-3'>
-            <li>Delivery Time: within one week</li>
+            <li>Delivery Time: 5 - 7 days</li>
             <li>Revisions: 4 included</li>
             <li>Responsive design tailored to your specifications</li>
             <li>Contact form</li>
@@ -27,7 +27,7 @@ const Services = () => {
           <p className='text-gray-700'>Price: PKR 20,000</p>
           <p className='mt-3'>Great for small businesses that need more than a single page.</p>
           <ul className='list-disc pl-5 mt-3'>
-            <li>Delivery Time: 1 - 2 weeks</li>
+            <li>Delivery Time: 10 - 14 days</li>
             <li>Revisions: 10 included</li>
             <li>Up to 4 pages</li>
             <li>Responsive design</li>
@@ -42,7 +42,7 @@ const Services = () => {
           <p className='text-gray-700'>Price: PKR 40,000</p>
           <p className='mt-3'>Perfect for startups looking to sell products online.</p>
           <ul className='list-disc pl-5 mt-3'>
-            <li>Delivery Time: 15 - 20 days</li>
+            <li>Delivery Time: 20 - 30 days</li>
             <li>Revisions: Unlimited</li>
             <li>Full Stack Website</li>
             <li>Responsive design</li>

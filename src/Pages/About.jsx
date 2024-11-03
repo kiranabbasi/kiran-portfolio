@@ -149,10 +149,10 @@ const About = () => {
         <h2 className='sm:text-4xl text-3xl text-center font-semibold text-[#242A41]'>I specialize in </h2>
 
         <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 -rotate-2 hover:rotate-2 duration-1000'>
-          <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
-          <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
+          <img src={ellipse1} alt="" className='absolute top-0 rounded-tl-xl left-0 z-20' />
+          <img src={ellipse2} alt="" className='absolute bottom-0 rounded-bl-xl left-0 z-20' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
-          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 z-20' />
+          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 rounded-br-xl z-20' />
           <div className='relative z-30'>
             <h3 className='text-[#242A41] font-serif font-semibold text-xl text-opacity-100'>Front-End Development</h3>
             <p className='text-[#585F6F] text-sm font-medium text-opacity-100'>Designing interactive, responsive interfaces for a smooth user experience.</p>
@@ -160,10 +160,10 @@ const About = () => {
         </div>
 
         <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 hover:-rotate-2 rotate-2 duration-1000'>
-          <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
-          <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
+          <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20 rounded-tl-xl' />
+          <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
-          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 z-20' />
+          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 z-20 rounded-br-xl' />
           <div className='relative z-30'>
             <h3 className='text-[#242A41] font-serif font-semibold text-xl text-opacity-100'>Back-End Development</h3>
             <p className='text-[#585F6F] text-sm font-medium text-opacity-100'>Creating solid server-side applications that keep websites running efficiently.</p>
@@ -171,10 +171,10 @@ const About = () => {
         </div>
 
         <div className='bg-[#EDF0F9] p-5 rounded-lg border-2 border-[#585F6F] relative sm:w-[500px] w-11/12 m-auto h-36 -rotate-2 hover:rotate-2 duration-1000'>
-          <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20' />
-          <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20' />
+          <img src={ellipse1} alt="" className='absolute top-0 left-0 z-20 rounded-tl-xl' />
+          <img src={ellipse2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={ellipse3} alt="" className='absolute bottom-0 left-24 z-20' />
-          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 z-20' />
+          <img src={ellipse4} alt="" className='absolute right-0 bottom-0 h-28 z-20 rounded-br-xl' />
           <div className='relative z-30'>
             <h3 className='text-[#242A41] font-serif font-semibold text-xl text-opacity-100'>Full-Stack Integration</h3>
             <p className='text-[#585F6F] text-sm font-medium text-opacity-100'>Merging front-end and back-end tech to build complete, functional web applications</p>

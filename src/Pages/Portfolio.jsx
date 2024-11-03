@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className='flex flex-col gap-10'>
 
         {/* first project  */}
-        <div className='relative bg-[#DEFCFF] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[98%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around '>
+        <div className='relative bg-[#DEFCFF] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[95%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around '>
           <img src={design1} alt="" className='absolute top-0 left-0  z-20 rounded-tl-xl' />
           <img src={design2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={design3} alt="" className='absolute bottom-0 left-24 z-20' />
@@ -26,7 +26,6 @@ const Portfolio = () => {
               type="video/mp4"
               autoPlay
               muted
-              controls
               loop
             />
           </div>
@@ -35,16 +34,16 @@ const Portfolio = () => {
             <p>A fully function e-commerce platform to browse through various pages, search and filter products and
               signup to add items to cart and place orders with test payments.</p>
             <div className='mt-10 flex flex-wrap gap-4'>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>React.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>TailWind CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Node.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Express.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>MongoDB</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Mongoose</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Bcrypt</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>JWT authorization</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Stripe</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>React.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>TailWind CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Node.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Express.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>MongoDB</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Mongoose</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Bcrypt</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>JWT authorization</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Stripe</span>
 
             </div>
             <a
@@ -58,7 +57,7 @@ const Portfolio = () => {
         </div>
 
         {/* second project  */}
-        <div className='relative bg-[#EDF0F9] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[98%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
+        <div className='relative bg-[#EDF0F9] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[95%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
           <img src={design1} alt="" className='absolute top-0 left-0  z-20 rounded-tl-xl' />
           <img src={design2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={design3} alt="" className='absolute bottom-0 left-24 z-20' />
@@ -70,24 +69,23 @@ const Portfolio = () => {
               type="video/mp4"
               autoPlay
               muted
-              controls
               loop
             />
           </div>
-          <div className='text-[#242F65] lg:w-1/2 w-[95%] relative z-30'>
+          <div className='text-[#242F65] lg:w-1/2 w-[95%] py-5 relative z-30'>
             <h3 className='sm:text-3xl text-2xl font-semibold'>Moon Ceramics Admin Panel</h3>
             <p>E-commerce admin panel to manage products and orders. Gives basic analysis on purchases and user experience.</p>
             <div className='mt-10 flex flex-wrap gap-4'>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>React.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>TailWind CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Node.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Express.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>MongoDB</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Mongoose</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Bcrypt</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>JWT authorization</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Stripe</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>React.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>TailWind CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Node.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Express.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>MongoDB</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Mongoose</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Bcrypt</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>JWT authorization</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Stripe</span>
 
             </div>
             <a
@@ -102,7 +100,7 @@ const Portfolio = () => {
 
 
         {/* third project  */}
-        <div className='relative bg-[#EDF0F9] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[98%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
+        <div className='relative bg-[#EDF0F9] lg:h-[60vh] sm:py-10 py-3 sm:w-[80%] w-[95%] m-auto rounded-xl flex lg:flex-row flex-col items-center justify-around'>
           <img src={design1} alt="" className='absolute top-0 left-0  z-20 rounded-tl-xl' />
           <img src={design2} alt="" className='absolute bottom-0 left-0 z-20 rounded-bl-xl' />
           <img src={design3} alt="" className='absolute bottom-0 left-24 z-20' />
@@ -114,20 +112,19 @@ const Portfolio = () => {
               type="video/mp4"
               autoPlay
               muted
-              controls
               loop
             />
           </div>
-          <div className='text-[#242F65] lg:w-1/2 w-[95%] relative z-30'>
+          <div className='text-[#242F65] lg:w-1/2 w-[95%] py-5 relative z-30'>
             <h3 className='sm:text-3xl text-2xl font-semibold'>Your Bank Website Landing Pages</h3>
             <p>Pixel perfect UI built with React.js and tailwind CSS. Smooth transitions using react hooks and </p>
             <div className='mt-10 flex flex-wrap gap-4'>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>React.js</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>TailWind CSS</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Useref hook</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>UseEffect hook</span>
-              <span className='bg-slate-400 px-2 py-1 rounded-full bg-opacity-90 text-sm font-semibold'>Git/Github</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>React.js</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>TailWind CSS</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Useref hook</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>UseEffect hook</span>
+              <span className='bg-[#242A41] text-white px-2 py-1 rounded-full bg-opacity-90 text-sm font-medium'>Git/Github</span>
 
             </div>
             <a
