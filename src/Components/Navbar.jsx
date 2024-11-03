@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import homeicon from '../Assests/home.svg';
+import abouticon from '../Assests/about.svg';
+import portfolioicon from '../Assests/portfolio.svg';
+import serviceicon from '../Assests/services.svg';
+import contacticon from '../Assests/contact.svg';
 
 const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -28,11 +33,25 @@ const Navbar = () => {
                     {/* Render the mobile dropdown based on dropdownOpen state */}
                     {dropdownOpen && (
                         <ul className='absolute top-0 right-0 z-40 bg-[#EDF0F9] w-[300px] h-[100vh] bg-opacity-90 pt-20 font-manrope font-semibold text-[20px] leading-[1.5]'>
-                            <li className='py-4 px-8 hover:bg-white'><a href="#hero" onClick={toggleDropdown}>Home</a></li>
-                            <li className='py-4 px-8 hover:bg-white'><a href="#about" onClick={toggleDropdown}>About</a></li>
-                            <li className='py-4 px-8 hover:bg-white'><a href="#portfolio" onClick={toggleDropdown}>Projects</a></li>
-                            <li className='py-4 px-8 hover:bg-white'><a href="#contact" onClick={toggleDropdown}>Contact</a></li>
-                            <button className='bg-[#242A41] text-white py-4 px-8 hover:bg-opacity-95 w-full text-left'><a href="#services">Services</a></button>
+                            <li className='py-4 px-4 hover:bg-white flex items-baseline gap-2'>
+                                <img src={homeicon} alt="" className='w-6' />
+                                <a href="#hero" onClick={toggleDropdown}>Home</a>
+                            </li>
+                            <li className='py-3 px-4 hover:bg-white flex items-baseline gap-3'>
+                                <img src={abouticon} alt="" className='w-5'/>
+                                <a href="#about" onClick={toggleDropdown}>About</a>
+                            </li>
+                            <li className='py-3 px-4 hover:bg-white flex items-baseline gap-3'>
+                                <img src={portfolioicon} alt="" className='w-5'/>   
+                                <a href="#portfolio" onClick={toggleDropdown}>Projects</a>
+                            </li>
+                            <li className='py-3 px-4 hover:bg-white flex items-baseline gap-3'>
+                                <img src={contacticon} alt="" className='w-5'/>
+                                <a href="#contact" onClick={toggleDropdown}>Contact</a>
+                            </li>
+                            <button className='bg-[#242A41] text-white py-3 px-4 hover:bg-opacity-95 w-full text-left flex items-baseline gap-3'>
+                                <img src={serviceicon} alt="" className='w-5' />
+                                <a href="#services">Services</a></button>
                         </ul>
                     )}
                 </div>
