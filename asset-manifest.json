@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kiran-portfolio/static/css/main.b4ee8a85.css",
-    "main.js": "/kiran-portfolio/static/js/main.c2adbfd2.js",
+    "main.js": "/kiran-portfolio/static/js/main.e29b0f04.js",
     "static/js/453.423cfc96.chunk.js": "/kiran-portfolio/static/js/453.423cfc96.chunk.js",
     "static/media/node.svg": "/kiran-portfolio/static/media/node.2c930b9120cee2e28687dc2289d13c02.svg",
     "static/media/github.svg": "/kiran-portfolio/static/media/github.30a31f95334a9cf5909b8e8d213b7098.svg",
@@ -23,11 +23,11 @@
     "static/media/Ellipse-2181.svg": "/kiran-portfolio/static/media/Ellipse-2181.cb2d2ff04d35488469768d88572662e7.svg",
     "static/media/Ellipse-2179.svg": "/kiran-portfolio/static/media/Ellipse-2179.0515fe8be08b4ddb69a3e63ee091f127.svg",
     "main.b4ee8a85.css.map": "/kiran-portfolio/static/css/main.b4ee8a85.css.map",
-    "main.c2adbfd2.js.map": "/kiran-portfolio/static/js/main.c2adbfd2.js.map",
+    "main.e29b0f04.js.map": "/kiran-portfolio/static/js/main.e29b0f04.js.map",
     "453.423cfc96.chunk.js.map": "/kiran-portfolio/static/js/453.423cfc96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ee8a85.css",
-    "static/js/main.c2adbfd2.js"
+    "static/js/main.e29b0f04.js"
   ]
 }
