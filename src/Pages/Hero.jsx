@@ -52,7 +52,7 @@ const Hero = () => {
           <div className='my-5 flex gap-5'>
             <a href="https://www.linkedin.com/in/004488-kiran-abbasi" target='_blank' rel="noreferrer"><img className='border border-[#242A41] rounded-full p-1 w-10 hover:opacity-90' src={linkedin} alt="Linkedin" /></a>
             <a href="https://github.com/kiranabbasi" target='_blank' rel="noreferrer" ><img className='border border-[#242A41] rounded-full p-1 w-10 hover:opacity-90' src={github} alt="Github" /></a>
-            <button className='bg-[#242A41] text-gray-100 px-2 rounded hover:bg-opacity-95 text-sm manrope-font leading-[1.5]'><a href="/KiranCV-14-10-2024.pdf" target='_blank'>Download my CV</a></button>
+            <button className='bg-[#242A41] text-gray-100 px-2 rounded hover:bg-opacity-95 text-sm manrope-font leading-[1.5]'><a href="./KiranCV-14-10-2024.pdf" target='_blank'>Download my CV</a></button>
           </div>
         </div>
         <div className='inline-block overflow-hidden'>
